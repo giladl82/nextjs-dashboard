@@ -15,7 +15,6 @@ export async function fetchRevenue() {
   // Add noStore() here prevent the response from being cached.
   // This is equivalent to in fetch(..., {cache: 'no-store'}).
   noStore();
-  await new Promise((resolve) => setTimeout(resolve, 3000));
   
   try {
     // Artificially delay a reponse for demo purposes.
